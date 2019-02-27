@@ -40,5 +40,5 @@ func main() {
 		os.Exit(1)
 	}
 	fmt.Printf("Current value: %d\n", val)
-	// R2 = (ADC*R1)/(4096-ADC)
+	// The final value should be calculated like this: R2 = (ADC*R1)/(4096-ADC), where R1 = 510
 }
